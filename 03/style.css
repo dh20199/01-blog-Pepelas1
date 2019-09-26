@@ -1,5 +1,5 @@
 html {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
     background-color: #ccc;
     box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ main {
 header {
     text-align: center;
     background-color: azure;
-    padding-top: 10px;
+    padding-top: 5px;
     
 }
 
