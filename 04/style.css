@@ -12,8 +12,8 @@ main {
     grid-template-areas: "nav nav nav"
                          "side art aside"
                          "side art aside";
-    grid-template-columns: 1fr, 4fr;
-    grid-template-rows: 1fr, 4fr; 
+    grid-template-columns: 
+    grid-template-rows: 
     grid-gap: 
 }
 
@@ -34,10 +34,10 @@ aside {
 
 section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
-    grid-area: side; 
+    grid-area: "side"; 
     display: flex; 
     flex-direction: column; 
-    justify-content: center;            /*these last two are optional*/
+    justify-content:            /*these last two are optional*/
     align-items:
 }
 
@@ -49,13 +49,13 @@ section.sidebar img {
 
 nav {
     background-color: rgba(30,200,30,0.3);
-    grid-area: auto; 
+    grid-area: "nav"; 
 
 }
 
 article {
     background-color: rgba(30,30,30,0.4);
-    grid-area: art; 
+    grid-area: "art"; 
     display: grid ;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (5, 1fr);
