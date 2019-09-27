@@ -4,7 +4,7 @@ header {
 
 article {
     background:  #F0F8FF;
-    display: flexbox; 
+    display: flex; 
     flex-wrap: wrap;
 }
 section.main {
