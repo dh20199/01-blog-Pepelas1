@@ -1,5 +1,18 @@
+header {
+    background-color: blanchedalmond; 
+}
+
 article {
-    background:  #0000;
+    background:  #F0F8FF;
     display: flexbox; 
     flex-wrap: wrap;
+}
+section.main {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+section.sources {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px, black; 
 }
