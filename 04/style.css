@@ -36,7 +36,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: side; 
     display: flex; 
-    flex-direction:
+    flex-direction: vertical; 
     justify-content:            /*these last two are optional*/
     align-items:
 }
