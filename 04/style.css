@@ -36,7 +36,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: side; 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content:            /*these last two are optional*/
     align-items:
 }
@@ -115,7 +115,7 @@ article div section {
         grid-template-rows: 80px 1fr 120px 80px;
     }
     section.sidebar {
-        flex-direction: row;       /* when the screen shrinks, change direction.*/
+        flex-direction: column;       /* when the screen shrinks, change direction.*/
     }
     
     section.sidebar img {       /* I'vefilled these in for you; feel free to fool with them if you like. */
