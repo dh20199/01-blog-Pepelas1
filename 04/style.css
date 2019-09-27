@@ -37,7 +37,7 @@ section.sidebar {
     grid-area: "side";
     display: flex; 
     flex-direction: column; 
-    justify-content:none;            /*these last two are optional*/
+    justify-content:start;            /*these last two are optional*/
     align-items:none;
 }
 
