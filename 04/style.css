@@ -12,9 +12,9 @@ main {
     grid-template-areas: "nav nav nav"
                          "side art aside"
                          "side art aside";
-    grid-template-columns: 1fr, 2fr, 1fr;
-    grid-template-rows: 1fr, 2fr, 1fr; 
-    grid-gap: 
+    grid-template-columns: 1fr, 4fr, 1fr;
+    grid-template-rows: 1fr, 4fr, 1fr; 
+    grid-gap: none; 
 }
 
 
@@ -38,7 +38,7 @@ section.sidebar {
     display: flex; 
     flex-direction: column; 
     justify-content:            /*these last two are optional*/
-    align-items:
+    align-items;
 }
 
 section.sidebar img {
@@ -57,9 +57,9 @@ article {
     background-color: rgba(30,30,30,0.4);
     grid-area: "art"; 
     display: grid ;
-    grid-template-columns: repeat (5, 2fr);
-    grid-template-rows: repeat (5, 2fr);
-    grid-gap:                   /*the gap is optional*/    
+    grid-template-columns: repeat (5, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    grid-gap: none;                    /*the gap is optional*/    
 }
 
 /* these next two are just simple styling to make the div boxes visible */
