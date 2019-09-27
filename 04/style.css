@@ -12,8 +12,8 @@ main {
     grid-template-areas: "nav nav nav"
                          "side art aside"
                          "side art aside";
-    grid-template-columns: 1fr, 4fr, 1fr;
-    grid-template-rows: 1fr, 4fr, 1fr;
+    grid-template-columns: 1fr, 2fr, 1fr;
+    grid-template-rows: 1fr, 2fr, 1fr;
     grid-gap: 
 }
 
@@ -37,7 +37,7 @@ section.sidebar {
     grid-area: side; 
     display: flex; 
     flex-direction: column; 
-    justify-content:            /*these last two are optional*/
+    justify-content: center;            /*these last two are optional*/
     align-items:
 }
 
