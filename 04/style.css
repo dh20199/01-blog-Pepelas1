@@ -49,6 +49,7 @@ section.sidebar img {
 
 nav {
     background-color: rgba(30,200,30,0.3);
+    grid-area: nav;
 
 }
 
