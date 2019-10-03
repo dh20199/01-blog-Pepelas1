@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "nodejstools",
+			"path": "/Users/maria/nodejstools"
+		},
+		{
+			"name": "mocha-sidebar",
+			"path": "/Users/maria/mocha-sidebar"
+		}
+	],
+	"settings": {}
+}
